@@ -6,3 +6,19 @@ $(document).ready(function() {
     $("#result").text(result);
   })
 })
+ var PingPong = function(ping) {
+   if((ping%3) === 0 && (ping%5) === 0) {
+     return "PingPong"
+   }
+  else
+  if((ping%5) === 0) {
+    return "pong"
+  }
+  else
+  if((ping%3) === 0) {
+    return "ping"
+  }
+  else {
+    return (ping)
+  }
+ };
