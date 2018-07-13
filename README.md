@@ -5,6 +5,15 @@ Yvonne Ouma
 ## Description
 The application by the name Ping Pong is a game of numbers.
 ## Specifications
+The application should return 'ping' when a number is divisible by 3.
+* Input Example: 6
+* Output Example: ping
+The application should return 'pong' for numbers divisible by 5.
+* Input Example: 10
+* Output Example: pong
+The application should return 'PingPong' for numbers divisible by both 3 and 5.
+* Input Example: 15
+* Output Example: PingPong
 
 ## Setup/Installation Requirements
 * This is a great place
