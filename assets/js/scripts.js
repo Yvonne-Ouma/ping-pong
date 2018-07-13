@@ -21,4 +21,8 @@ $(document).ready(function() {
   else {
     return (ping)
   }
+
+  for (ping = 0; ping <= 200; ping+=PingPong) {
+      return (ping)
+  }
  };
