@@ -1,11 +1,18 @@
 .jumbotron{
   text-align: center;
+  margin-bottom: 0;
+  background-color: #FFFF99;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 #ping{
-  background-color: #E0E0E0;
+  background-color: #CCFFFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #me{
 background-image: url(../../images/mine.gif);
 background-repeat: no-repeat;
 background-size: cover;
+color:#FFFFFF;
 }
