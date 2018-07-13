@@ -18,6 +18,12 @@ The application by the name Ping Pong is a game of numbers.
 * Output Example: PingPong
 
 ## Setup/Installation Requirements
+* Go to Goggle Chrome or Google Chromium
+* In the search button,search github
+* log in if you have an account if not create an account
+* search the name of my repository (ping-pong)
+* You can clone my project on the clone button
+* this is the link to my application https://yvonne-ouma.github.io/ping-pong/
 ## Known Bugs
 This application does not require Internet explorer.
 ## Technologies Used
