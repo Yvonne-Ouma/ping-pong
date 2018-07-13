@@ -1,3 +1,11 @@
 .jumbotron{
   text-align: center;
 }
+#ping{
+  background-color: #E0E0E0;
+}
+#me{
+background-image: url(../images/images.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
