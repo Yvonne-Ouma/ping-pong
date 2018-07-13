@@ -30,7 +30,7 @@ This application does not require Internet explorer.
 * HTML
 * CSS
 * JavaScript
-* jQuery and Bootstrap libraries
+jQuery and Bootstrap libraries
 In this application i used multiple tools first, i used the Hypertext Markup Language which generally displayed the structural part of my application. Second I used Cascading StylesSheet to make my page more styled and pleasant to look at finally I used JavaScript which actually display on how the game should be played and the various rules.One interesting thing that a'll like viewers to know is that it's fun using this languages.
 ## Support and contact details
 For more information about this game contact me on my g-mail account yvonneouma98@gmail.com or rather my number 0722222158
