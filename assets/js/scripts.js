@@ -1,45 +1,32 @@
+// BUSINESS LOGIC
+var output = function(number) {
+  var array = [];
+  for (var index = 1; index <= number; index++) {
+    if ((index % 15) === 0) {
+      array.push("Ping Pong");
+    } else if ((index % 5) === 0) {
+      array.push("Pong");
+    }else if ((index % 3)=== 0) {
+      array.push("Ping");
+    }else
+      array.push(index);
+  }
+  console.log(index);
+  return array;
+};
+
+// USER INTERFACE LOGIC
 $(document).ready(function() {
-  $("form#PingPong").submit(function(event) {
-    event.preventDefault();
-    var number =parseInt($("input#number").val());
-    var result = PingPong(number);
-    $("#result").text(result);
-  })
-})
- var PingPong = function(ping) {
-   if((ping%3) === 0 && (ping%5) === 0) {
-     return "PingPong"
-   }
-  else
-  if((ping%5) === 0) {
-    return "pong"
-  }
-  else
-  if((ping%3) === 0) {
-    return "ping"
-  }
-  else {
-    return (ping)
-  }
-
-  for (ping = 0; ping <= 200; ping+=PingPong) {
-      return (ping)
-  }
- };
+  $("form#no").submit(function(event) {
+    $("#result").empty();
 
 
- // USER INTERFACE LOGIC
- // $(document).ready(function() {
- //   $("form#PingPong").submit(function(event) {
- //     $("#result").empty();
- //
- //
- //     var number = parseInt($("input#number").val());
- //     var array = output(number);
- //     array.forEach(function(aftermath) {
- //       $("#result").append("<li>" + aftermath + "</li>");
- //       event.preventDefault();
- //     });
- //
- //   });
- // });
+    var number = parseInt($("input#number").val());
+    var array = output(number);
+    array.forEach(function(aftermath) {
+      $("#result").append("<li>" + aftermath + "</li>");
+      event.preventDefault();
+    });
+
+  });
+});
