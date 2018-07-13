@@ -26,3 +26,20 @@ $(document).ready(function() {
       return (ping)
   }
  };
+
+
+ // USER INTERFACE LOGIC
+ $(document).ready(function() {
+   $("form#PingPong").submit(function(event) {
+     $("#result").empty();
+
+
+     var number = parseInt($("input#number").val());
+     var array = output(number);
+     array.forEach(function(aftermath) {
+       $("#result").append("<li>" + aftermath + "</li>");
+       event.preventDefault();
+     });
+
+   });
+ });
